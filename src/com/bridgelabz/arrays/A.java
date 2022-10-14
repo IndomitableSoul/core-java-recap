@@ -58,7 +58,7 @@ public class A {
 
 //i: plays the role of index
 //a[i]: gives the element at given index
-//a.length-1
+//a.length-1 is last index
 
 //{1, 22, 11, 13, 12, 23, 18}
 //Print all even elements
