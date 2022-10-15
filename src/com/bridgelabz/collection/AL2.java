@@ -1,6 +1,7 @@
 package com.bridgelabz.collection;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class AL2 {
@@ -11,11 +12,13 @@ public class AL2 {
         al.add(43);
         al.add(10);
         System.out.println(al);
-        al.removeIf(n-> n%2!=0);
+        //sorting
+        Collections.sort(al);
         System.out.println(al);
-        System.out.println(al.size());//
-        System.out.println(al.contains(22));
-        System.out.println(al.isEmpty());
-        System.out.println(al.toArray()[2]);
+        Collections.reverse(al);
+        System.out.println(al);
+
     }
 }
+//Collections is a utility class which contains certain methods that are used to perform some actions like sorting, shuffling
+//of collection

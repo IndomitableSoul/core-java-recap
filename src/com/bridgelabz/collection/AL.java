@@ -29,3 +29,9 @@ public class AL {
 
     }
 }
+//ArrayList
+//Its a type of collection
+//It is indexed
+//It maintains order of insertion
+//It allows duplicates
+//It allows nul value
